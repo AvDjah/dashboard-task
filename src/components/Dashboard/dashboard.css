@@ -1,11 +1,14 @@
 .banner {
     color: white;
-    background-color: #0D62FF;
-    /* width: 80vw; */
     padding-top: 25px;
     padding-left: 35px;
-    /*border: 2px solid black;*/
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background: #0D62FF linear-gradient(89deg, rgba(16, 87, 229, 1) 1%, rgba(12, 81, 218, 1) 92%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
+
 
 .dashboard {
     display: flex;
@@ -13,4 +16,33 @@
     padding: 0px;
     /*width: 100%;*/
     /*flex: 1;*/
+}
+
+
+.banner::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: -37px;
+    width: 1577.88px;
+    height: 1611.6px;
+    z-index: 3;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #2968e5 60%, #11308f 80%);
+}
+
+.banner::after {
+    content: "";
+    position: fixed;
+    top: -224.81px;
+    width: 2038.33px;
+    height: 2080.19px;
+    z-index: 2;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #2968e5 60%, #11308f 80%);
+}
+
+.banner-text {
+    z-index: 4;
+    position: relative;
 }
