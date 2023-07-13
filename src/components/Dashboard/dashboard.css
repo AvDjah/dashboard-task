@@ -1,0 +1,16 @@
+.banner {
+    color: white;
+    background-color: #0D62FF;
+    /* width: 80vw; */
+    padding-top: 25px;
+    padding-left: 35px;
+    /*border: 2px solid black;*/
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    /*width: 100%;*/
+    /*flex: 1;*/
+}

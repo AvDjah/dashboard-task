@@ -1,0 +1,27 @@
+
+
+
+.area-chart-container {
+    /*height: 143px;*/
+    height: 50px;
+    width: 150px;
+}
+
+.info-bold {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.info-small {
+    color: #333333;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-small-span {
+    display: inline-block;
+    padding : 2px;
+}
