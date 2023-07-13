@@ -3,6 +3,9 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Bar, Doughnut } from "react-chartjs-2";
 import { BarChart } from './BarChart/BarChart'
 
+// import {Chart} from 'chart.js';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
+
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const ItemOne = () => {
@@ -117,8 +120,8 @@ const ItemOne = () => {
 
     // TODO : Fix tooltip and display percentages on the chart.
 
-    return <div className="row-2-item"> <div style={{fontSize: "1.4rem`"}} >Chapter Wise Status</div> < div style={{width : "316px"
-    , position : "relative" , top : "20px" }} > <Doughnut data={data} options={options}
+    return <div className="row-2-item"> <div style={{fontSize: "1.4rem`"}} ><h1>Chapter Wise Status</h1></div> < div style={{width : "316px"
+    , position : "relative" , top : "20px" }} > <Doughnut plugins={[ChartDataLabels]} data={data} options={options}
         plugins={[hoverLabel]}
     ></Doughnut></div></div >
 }

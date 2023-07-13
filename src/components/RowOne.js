@@ -12,7 +12,7 @@ const CardOne = (props) => {
     console.log(props.data)
     const data = props.data;
     return <div className="row-1-item">
-        <div ><span style={{fontWeight : "normal",fontSize : "1.5rem"}} >{props.data.heading}</span></div>
+        <div ><span style={{fontWeight : "normal",fontSize : "1.5rem"}} ><h1>{props.data.heading}</h1> </span></div>
         <div style={itemBottomRowStyle}>
             <div style={{width : "90px"}}>
                 <div className="info-bold" >

@@ -109,10 +109,10 @@ export const BarChart = () => {
     return <div className="row-2-item" style={{width: "1053px"}}>
         <div style={{display : "flex", justifyContent: "space-between", fontSize: "1.3em"}}>
             <span style={{display: "inline-block"}}>
-            Last 14 Days Active Workers In Training
+            <h1> Last 14 Days Active Workers In Training </h1>
             </span>
             <span style={{display: "inline-block"}}>
-                Last 14 Days
+             <h1>   Last 14 Days</h1>
             </span>
 
         </div>
