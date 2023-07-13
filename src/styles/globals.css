@@ -45,3 +45,8 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #E7EFFF;
 }
+
+h1 {
+  font-size: 20px;
+  font-weight: lighter;
+}

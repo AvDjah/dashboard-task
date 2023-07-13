@@ -91,7 +91,9 @@ const data = {
 
 export const DailyTrainingCompletion = () => {
     return <div className="row-3-item" style={{width: "589px"}}>
-        <div>Daily Training Completions</div>
-        <div></div>
-        <Bar data={data} options={options}></Bar></div>
+        <div><h1>Daily Training Completions</h1></div>
+        <div style={{width: "538px", height : "204px", display : "flex", justifyContent: "center" }} >
+            <div style={{flex : 1}} ><Bar data={data} options={options}></Bar>
+            </div></div>
+        </div>
 }

@@ -4,7 +4,7 @@ import {AiOutlineStock} from 'react-icons/ai'
 
 const CardOne = (props) => {
 
-    const itemBottomRowStyle = { display: "flex", flexDirection: "row", justifyContent: "space-between", margin: "1px", height: "100%", alignItems: "end" }
+    const itemBottomRowStyle = { display: "flex", flexDirection: "row", justifyContent: "space-between", margin: "1px", height: "500px", alignItems: "end" }
 
 
 

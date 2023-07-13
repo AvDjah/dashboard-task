@@ -28,7 +28,7 @@
     width: 316px;
     height: 172px;
     border-radius: 10px;
-    box-shadow: 0px 4px 4px #1878F2;
+    box-shadow: 0px 4px 4px #a7c6ee;
     background-color: white;
     /*margin: 10px;*/
     margin-left: 12px;
@@ -52,7 +52,7 @@
     padding: 20px 17px 22px 17px;
     border-radius: 10px;
     margin-top: 10px;
-    box-shadow: 0px 4px 4px #1878F2;
+    box-shadow: 0px 4px 4px #a7c6ee;
     margin-left: 12px;
     margin-right: 12px;
 }
@@ -74,8 +74,9 @@
     height: 302px;
     border-radius: 10px;
     margin-top: 10px;
-    box-shadow: 0px 4px 4px #1878F2;
-    padding: 16px;
+    box-shadow: 0px 4px 4px #a7c6ee;
+    padding: 25px;
     margin-left: 12px;
     margin-right: 12px;
+    /*padding: 25px;*/
 }

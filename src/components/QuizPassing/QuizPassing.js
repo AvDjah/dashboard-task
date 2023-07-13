@@ -53,7 +53,7 @@ const options = {
 
 
 export const QuizPassing = () => {
-    return <div className="row-3-item"><div className="quiz-header" style={{width: "385px"}} >Quiz Passing</div>
+    return <div className="row-3-item"><div className="quiz-header" style={{width: "385px"}} ><h1>Quiz Passing %</h1></div>
         <div style={{ height: "300px", width: "300px",}} >
             <Doughnut data={data} options={options}></Doughnut>
         </div></div>

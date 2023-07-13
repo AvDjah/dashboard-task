@@ -32,6 +32,24 @@ const options = {
             enabled : false
         },
     },
+    scales : {
+        x : {
+            grid : {
+                display : false,
+            }
+        },
+        y : {
+            ticks : {
+              display : false
+            },
+            grid : {
+                display : false
+            },
+            border : {
+                display : false
+            }
+        }
+    }
 }
 
 
@@ -40,11 +58,12 @@ const data = {
     datasets: [
         {
             label: 'Sales',
-            data: [120, 190,20,90,10,120,120],
+            data: [120, 190,80,90,70,120,120],
             backgroundColor: 'rgba(75,192,192,0.2)', // Area fill color
             borderColor: 'rgba(75,192,192,1)', // Border color
-            borderWidth: 1,
-            fill : true
+            borderWidth: 0,
+            fill : true,
+            pointStyle:  false
         },
     ],
 };
